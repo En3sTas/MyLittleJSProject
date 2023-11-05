@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;        
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom,rgb(181, 245, 209),rgb(187, 217, 227),rgb(181, 245, 209));
+    height: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-display: swap;  /*Burayı kaldırıp tekrar denen bir şey olmazsa gerek yok*/
+    
+}
+
+.wrapper{
+    padding: 50px 50px; /* bunuda silip dene */
+    background-color:white;
+    border-radius: 10px;
+    background-color: rgb(233, 243, 218);
+    border: 1px solid rgb(233, 243, 218);
+    flex-basis: 500px;
+    height: 500px;
+}
+
+
+button{
+    margin: 5px;
+    width: 50px;
+    height: 50px;   
+    background-color: red;
+    border-radius: 10px;
+}
